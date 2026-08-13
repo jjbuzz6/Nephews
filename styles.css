@@ -66,3 +66,33 @@ hr{border:0;border-top:1px solid var(--line);margin:14px 0}
 .postgame-player{font-size:28px;line-height:1.05;font-weight:950;letter-spacing:-.035em;margin:6px 0}
 .recap-card{margin-top:12px;padding:16px;border-radius:18px;border:1px solid var(--line);background:#fff}
 .recap-text{font-size:14px;line-height:1.65;color:#284d70;margin:8px 0 14px}
+.spots-card{margin:12px 0 14px;padding:16px;border-radius:20px;border:1px solid #a9d8f8;background:linear-gradient(160deg,#f2fbff,#ffffff);box-shadow:var(--shadow)}
+.spot-clock{font-size:12px;color:#2b6491;background:#e8f5ff;border:1px solid #c2e2fa;border-radius:12px;padding:8px 10px;margin-bottom:12px}
+.spot-clock .tiny{display:block;margin-top:2px}
+.spot-pick{border:1px solid #9ad0f6;background:#fff;border-radius:16px;padding:14px}
+.spot-name{font-size:22px;font-weight:950;letter-spacing:-.03em;line-height:1.15}
+.spot-status{font-size:11px;font-weight:900;padding:5px 9px;border-radius:999px;white-space:nowrap;background:#eef5fb;border:1px solid #d6e6f5;color:#6983a0}
+.spot-status.ok{background:#e2f8ec;border-color:#a8e2c3;color:#1f7a4d}
+.spot-status.warn{background:#fff3d6;border-color:#f0d488;color:#8a6317}
+.spot-status.bad{background:var(--danger-bg);border-color:#f3c1c1;color:#ae3c3c}
+.spot-status.inline{margin-left:4px;padding:2px 7px;font-size:10px;vertical-align:middle}
+.spot-why{margin:10px 0 8px;padding-left:18px;font-size:13px;line-height:1.55;color:#2c5578}
+.spot-why li{margin-bottom:3px}
+.spot-why li.bad{color:#a8542f}
+.spot-notes{margin-top:8px;font-size:13px;font-style:italic;color:#4a6f92}
+.spot-ideas-title{font-size:10px;font-weight:950;letter-spacing:.09em;color:var(--muted);text-transform:uppercase;margin:14px 0 8px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.chip{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:#fff;color:#25638f;border-radius:999px;padding:7px 11px;font-size:12px;font-weight:800;text-decoration:none}
+.chip.static{background:#f1f8ff;color:#4a6f92}
+.chip.toggle{cursor:pointer;user-select:none}
+.chip.toggle input{margin:0}
+.spot-ruled{margin-top:12px}
+.spot-ruled summary{cursor:pointer;font-size:12px;font-weight:800;color:var(--muted)}
+.hours-head,.hours-row{display:grid;grid-template-columns:38px 46px 1fr 1fr 1fr;gap:6px;align-items:center}
+.hours-head{font-size:10px;font-weight:900;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;margin-bottom:4px;text-align:center}
+.hours-head span:first-child{text-align:left}
+.hours-row{margin-bottom:6px}
+.hours-row .field{min-height:38px;padding:6px 8px;font-size:13px}
+.hours-row .field:disabled{background:#f1f5fa;color:#9fb3c8}
+.hours-day{font-weight:900;font-size:12px}
+.hours-row input[type=checkbox]{justify-self:center;width:18px;height:18px}
