@@ -1,4 +1,4 @@
-const CACHE='nephews-softball-v3';
+const CACHE='nephews-softball-v4';
 const ASSETS=['./','./index.html','./styles.css','./app.js','./manifest.webmanifest','./icon.svg'];
 self.addEventListener('install',e=>{
   self.skipWaiting();
