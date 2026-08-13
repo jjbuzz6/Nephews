@@ -1,32 +1,35 @@
-# Lineup Ledger — Mobile Softball Stat Tracker
+# The Nephews — Mobile Softball Stat Tracker
 
-A dependency-free, mobile-first Progressive Web App for men's softball stat tracking.
+A dependency-free, mobile-first Progressive Web App for the Nephews men's softball team.
 
-## Run it
+## Run it locally
 
 Because the app uses a service worker, serve the folder over HTTP rather than opening `index.html` directly.
 
-### Python
 ```bash
 python3 -m http.server 8080
 ```
+
 Then open `http://localhost:8080`.
 
-### Install on phone
-Deploy the folder to any static host (GitHub Pages, Netlify, Vercel, Cloudflare Pages, etc.), open it in Safari/Chrome, then use **Add to Home Screen**.
+## GitHub Pages
 
-## Included
+Upload the files in this folder to the root of a GitHub repository, then enable **Settings → Pages → Deploy from a branch → main → /(root)**.
+
+## Features
+
 - Persistent roster and fill-in tracking
-- Rapid lineup editing and substitutions
-- Current-batter workflow with one-tap outcomes
-- RBI stepper and run tracking
-- Undo last plate appearance
-- Inning-by-inning scorekeeping for both teams
-- Multiple games and completed-game history
-- Career stat aggregation
-- Customizable game innings and visible result buttons
-- True `.xlsx` export generated in the browser (Career Stats, Roster, Games, Plate Appearances)
+- Active-roster lineup builder with direct add controls
+- Rapid lineup changes and substitutions
+- One-tap batting outcomes, RBI and run tracking
+- Inning-by-inning scoring for both teams
+- Sortable career stat table
+- Automatic Player of the Game after every completed game, with manual override
+- Automatically generated postgame writeup highlighting the score and top performances
+- Saved game recaps in game history with copy/regenerate controls
+- Excel export including Player of the Game and Game Recap columns
 - JSON backup/import
-- PWA/offline support after first load
+- Light-blue Nephews theme
+- PWA/offline support
 
 All data is stored in browser localStorage on the device.

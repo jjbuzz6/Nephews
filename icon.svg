@@ -1,6 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-<rect width="512" height="512" rx="120" fill="#07111f"/>
-<circle cx="256" cy="256" r="170" fill="#f6d365"/>
-<path d="M151 156c39 45 55 86 56 141M361 156c-39 45-55 86-56 141M151 356c39-45 55-86 56-141M361 356c-39-45-55-86-56-141" fill="none" stroke="#d34d4d" stroke-width="14" stroke-linecap="round" stroke-dasharray="7 13"/>
-<path d="M126 390h260" stroke="#63e6be" stroke-width="26" stroke-linecap="round"/>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#dff3ff"/>
+      <stop offset="100%" stop-color="#74c8ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="120" fill="url(#bg)"/>
+  <circle cx="256" cy="210" r="120" fill="#fff4cf"/>
+  <path d="M181 141c27 31 38 59 40 95M331 141c-27 31-38 59-40 95M181 279c27-31 38-59 40-95M331 279c-27-31-38-59-40-95" fill="none" stroke="#d95d4d" stroke-width="12" stroke-linecap="round" stroke-dasharray="6 12"/>
+  <rect x="116" y="304" width="280" height="92" rx="26" fill="#ffffff" opacity="0.95"/>
+  <text x="256" y="365" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="120" font-weight="900" fill="#2c8fdb">N</text>
 </svg>
